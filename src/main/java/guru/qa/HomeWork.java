@@ -12,18 +12,18 @@ public class HomeWork {
         double doubleB = 1.5;
         double result = (intA + intB) / doubleB;
 
-        //применить несколько арифметических операций ( + , -, * , /) над двумя примитивами типа int
+        // применить несколько арифметических операций ( + , -, * , /) над двумя примитивами типа int
         System.out.println(intA + intB);
         System.out.println(intA - intB);
         System.out.println(intA * intB);
         System.out.println(intA / intB);
 
-        //применить несколько арифметических операций над int и double в одном выражении
+        // применить несколько арифметических операций над int и double в одном выражении
         System.out.println((doubleA + doubleB) * 10);
         System.out.println((doubleA + doubleB) - (intA + intB));
         System.out.println(result);
 
-        //применить несколько логических операций ( < , >, >=, <= )
+        // применить несколько логических операций ( < , >, >=, <= )
         if (intA < intB) {
             System.out.println(intB);
         } else {
