@@ -5,6 +5,9 @@ public class HomeWork {
     public  static void main(String... args) {
         int intA = 7;
         int intB = 3;
+        int intC = Integer.MAX_VALUE;
+        int  conclusion = intC + 1;
+
         double doubleA = 6.5;
         double doubleB = 1.5;
         double result = (intA + intB) / doubleB;
@@ -36,6 +39,8 @@ public class HomeWork {
         String line = doubleA >= 6.5 ? "it's more or equal than 6.5" : "it's less than 6.5";
         System.out.println(line);
 
+        // получить переполнение при арифметической операции
+        System.out.println(conclusion);
     }
 
 }
