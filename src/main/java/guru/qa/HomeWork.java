@@ -2,11 +2,11 @@ package guru.qa;
 
 public class HomeWork {
 
-    public  static void main(String... args) {
+    public static void main(String... args) {
         int intA = 7;
         int intB = 3;
         int intC = Integer.MAX_VALUE;
-        int  conclusion = intC + 1;
+        int overflowResult = intC + 1;
 
         double doubleA = 6.5;
         double doubleB = 1.5;
@@ -40,7 +40,7 @@ public class HomeWork {
         System.out.println(line);
 
         // получить переполнение при арифметической операции
-        System.out.println(conclusion);
+        System.out.println(overflowResult);
     }
 
 }
